@@ -66,7 +66,7 @@
       </div>
 
       <label for="password" class="tituloSeccion">Password del usuario:</label>
-      <input id="password" type=password" class="form-control formulario" name="password" value="{{$usuarios->password}}" disabled>
+      <input id="password" type=password" class="form-control" name="password" value="{{$usuarios->password}}" disabled>
   
     <a href="/Usuarios" class="btn btn-danger">Volver</a>
 </form>

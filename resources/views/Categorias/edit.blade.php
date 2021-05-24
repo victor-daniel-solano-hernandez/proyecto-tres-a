@@ -10,10 +10,10 @@
     @method('PUT')
     <div class="form-group">
       <label for="exampleFormControlInput1">Nombre de la seccion</label>
-      <input type="text" class="form-control formulario" name="nombre" value="{{$categoria->nombre}}">
+      <input type="text" class="form-control" name="nombre" value="{{$categoria->nombre}}">
 
       <label for="exampleFormControlInput1">Descripción de la seccion</label>
-      <input type="text" class="form-control formulario" name="descripcion" value="{{$categoria->descripcion}}">
+      <input type="text" class="form-control" name="descripcion" value="{{$categoria->descripcion}}">
     </div>
     <button type="submit" class="btn btn-primary">Guardar</button>
     <a href="/Categorias" class="btn btn-danger">Volver</a>

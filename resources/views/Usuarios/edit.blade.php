@@ -45,10 +45,10 @@
       </div>
 
       <label for="password" class="tituloSeccion">Password del usuario:</label>
-      <input id="password" type=password" class="form-control formulario" name="password" value="{{$usuarios->password}} " disabled>
+      <input id="password" type=password" class="form-control" name="password" value="{{$usuarios->password}} " disabled>
       
       <label for="password2" class="tituloSeccion">Repita el password</label>
-      <input id="password2" type="text" class="form-control formulario" name="password2" value="{{$usuarios->password}} " disabled>
+      <input id="password2" type="text" class="form-control" name="password2" value="{{$usuarios->password}} " disabled>
 
     <button type="submit" class="btn btn-primary">Enviar</button>
     <a href="/Usuarios" class="btn btn-danger">Volver</a>

@@ -30,8 +30,6 @@
 <li><a href="login.html">Logout</a></li>
 @endsection
 
-
-
 @section('content')
 
 <style>

@@ -50,7 +50,7 @@
 <table border="1" class="table table-striped">
 <thead class="thead-dark">
         <th>Nombre</th>
-        <th>Tipo</th>
+        <th>Apellido</th>
         <th>Operaciones</th>
 </thead>
 
@@ -58,7 +58,7 @@
     @forelse ($usuarios as $usuario)
       <tr>
         <th scope="row">{{$usuario->nombre}}</th>
-        <th scope="row">{{$usuario->rol}}</th>
+        <th scope="row">{{$usuario->a_paterno}}</th>
         {{--
             <td>
             <td>{{$usuario->nombre}} {{$usuario->a_paterno}} {{$usuario->a_materno}}</td>
